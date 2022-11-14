@@ -70,9 +70,12 @@
     3. create message component
     4. create utils.js to define getError function
 
-12. Implement Add to Cart
-
+12. Implement Add To Cart
 13. create react context
 14. define reducer
 15. create store provider
 16. implement add to cart button click handler
+
+17. Complete Add To Cart
+18. check exist item in the cart
+19. check count in stock in backend
