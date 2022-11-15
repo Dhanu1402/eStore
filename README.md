@@ -71,16 +71,25 @@
     4. create utils.js to define getError function
 
 12. Implement Add To Cart
+
 13. create react context
 14. define reducer
 15. create store provider
 16. implement add to cart button click handler
 
 17. Complete Add To Cart
+
 18. check exist item in the cart
 19. check count in stock in backend
 
 20. Create Cart Screen
+
 21. create 2 columns
 22. display items list
 23. create action column
+
+24. Complete Cart Screen
+
+    1. click handler for inc/dec item
+    2. click handler for remove item
+    3. click handler for checkout
