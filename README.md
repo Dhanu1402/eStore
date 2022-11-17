@@ -126,3 +126,8 @@
 49. handle submit screen
 50. save token in store and local storage
 51. show user name in header
+
+52. Create Shipping Screen
+53. create form inputs
+54. handle save shipping address
+55. add checkout wizard bar
