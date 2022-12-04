@@ -131,3 +131,8 @@
 53. create form inputs
 54. handle save shipping address
 55. add checkout wizard bar
+
+56. Create Sign Up Screen
+57. create input forms
+58. handle submit
+59. create backend api
