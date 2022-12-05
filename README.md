@@ -140,3 +140,8 @@
 60. Implement Select Payment Method Screen
 61. create input forms
 62. handle submit
+
+63. Create Place Order Screen
+64. show cart items, payment and address
+65. handle place order action
+66. create order create api
