@@ -145,3 +145,7 @@
 64. show cart items, payment and address
 65. handle place order action
 66. create order create api
+
+67. Implement Place Order Action
+68. handle place order action
+69. create order create api

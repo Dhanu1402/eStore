@@ -5,6 +5,7 @@ import dotenv from 'dotenv';
 import seedRouter from './routes/seedRoutes.js';
 import productRouter from './routes/productRoutes.js';
 import userRouter from './routes/userRoutes.js';
+import orderRouter from './routes/orderRoutes.js';
 
 // to fetch variables in .env file
 dotenv.config();
@@ -32,6 +33,8 @@ app.use('/api/seed', seedRouter);
 app.use('/api/products', productRouter);
 
 app.use('/api/users', userRouter);
+
+app.use('/api/orders', orderRouter);
 
 // two parameters are used url which is to be used and function which responds to the request i.e res = response req = request
 // app.get('/api/products', (req, res) => {
