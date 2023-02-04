@@ -1,5 +1,5 @@
 import express from 'express';
-import data from './data.js';
+import path from 'path';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import seedRouter from './routes/seedRoutes.js';
@@ -67,6 +67,15 @@ app.use('/api/orders', orderRouter);
 app.use((err, req, res, next) => {
   res.status(500).send({ message: err.message });
 });
+
+// it returns the current directory
+const __dirname = path.resolve();
+// to serve static files in the frontend build folder
+app.use(express.static(path.join(__dirname, '/frontend/build')));
+// to serve the index.html file in the frontend build folder
+app.get('*', (req, res) =>
+  res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
+);
 
 // define port that we will be getting the backend
 const port = process.env.PORT || 1000;
