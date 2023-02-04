@@ -72,92 +72,102 @@
 
 12. Implement Add To Cart
 
-13. create react context
-14. define reducer
-15. create store provider
-16. implement add to cart button click handler
+    1. create react context
+    2. define reducer
+    3. create store provider
+    4. implement add to cart button click handler
 
-17. Complete Add To Cart
+13. Complete Add To Cart
 
-18. check exist item in the cart
-19. check count in stock in backend
+    1. check exist item in the cart
+    2. check count in stock in backend
 
-20. Create Cart Screen
+14. Create Cart Screen
 
-21. create 2 columns
-22. display items list
-23. create action column
+    1. create 2 columns
+    2. display items list
+    3. create action column
 
-24. Complete Cart Screen
+15. Complete Cart Screen
 
     1. click handler for inc/dec item
     2. click handler for remove item
     3. click handler for checkout
 
-25. Create Signin Screen
-26. create sign in form
-27. add email and password
-28. add signin button
+16. Create Signin Screen
 
-29. Connect To MongoDB Database
-30. create atlas mongodb database
-31. install local mongodb database
-32. npm install mongoose
-33. connect to mongodb database
+    1. create sign in form
+    2. add email and password
+    3. add signin button
 
-34. Seed Sample Data
-35. create Product model
-36. create User model
-37. create seed route
-38. use route in server.js
-39. seed sample product
+17. Connect To MongoDB Database
 
-40. Seed Sample Users
-41. create user model
-42. seed sample users
-43. create user routes
+    1. create atlas mongodb database
+    2. install local mongodb database
+    3. npm install mongoose
+    4. connect to mongodb database
 
-44. Create Signin Backend API
-45. create signin api
-46. npm install jsonwebtokens
-47. define generateToken function
+18. Seed Sample Data
 
-48. Complete Signin Screen
-49. handle submit screen
-50. save token in store and local storage
-51. show user name in header
+    1. create Product model
+    2. create User model
+    3. create seed route
+    4. use route in server.js
+    5. seed sample product
 
-52. Create Shipping Screen
-53. create form inputs
-54. handle save shipping address
-55. add checkout wizard bar
+19. Seed Sample Users
 
-56. Create Sign Up Screen
-57. create input forms
-58. handle submit
-59. create backend api
+    1. create user model
+    2. seed sample users
+    3. create user routes
 
-60. Implement Select Payment Method Screen
-61. create input forms
-62. handle submit
+20. Create Signin Backend API
 
-63. Create Place Order Screen
-64. show cart items, payment and address
-65. handle place order action
-66. create order create api
+    1. create signin api
+    2. npm install jsonwebtokens
+    3. define generateToken function
 
-67. Implement Place Order Action
+21. Complete Signin Screen
+
+    1. handle submit screen
+    2. save token in store and local storage
+    3. show user name in header
+
+22. Create Shipping Screen
+
+    1. create form inputs
+    2. handle save shipping address
+    3. add checkout wizard bar
+
+23. Create Sign Up Screen
+
+    1. create input forms
+    2. handle submit
+    3. create backend api
+
+24. Implement Select Payment Method Screen
+
+    1. create input forms
+    2. handle submit
+
+25. Create Place Order Screen
+
+    1. show cart items, payment and address
+    2. handle place order action
+    3. create order create api
+
+26. Implement Place Order Action
 
     1. handle place order action
     2. create order create api
 
-68. Create Order Screen
+27. Create Order Screen
 
     1. create backend api for order/:id
     2. fetch order api in frontend
     3. show order information in 2 columns
 
-69. Pay Order By Paypal
+28. Pay Order By Paypal
 
     1. generate paypal client id
     2. create api to return client id
@@ -169,20 +179,20 @@
     8. implement onApprove payment function
     9. create pay order api in backend
 
-70. Display Order History
+29. Display Order History
 
     1. create order screen
     2. create order history api
     3. use api in the frontend
 
-71. Create Profile Screen
+30. Create Profile Screen
 
     1. get user info from content
     2. show user information
     3. create user update api
     4. update user info
 
-72. Publish To Heroku
+31. Publish To Heroku
 
     1. create and config node project
     2. serve build folder in frontend folder
@@ -192,6 +202,12 @@
     6. Set database connection in heroku env variables
     7. Commit and push
 
-73. Add Sidebar and Search Box
+32. Add Sidebar and Search Box
+
     1. add sidebar
     2. add search box
+
+33. Create Search Screen
+    1. show filters
+    2. create api for search products
+    3. display results
